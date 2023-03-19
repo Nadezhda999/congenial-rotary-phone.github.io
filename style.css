@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #213B7E;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: calc(50% - 1268px / 2);
+    padding-right: calc(50% - 1268px / 2);
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin-left: 54px;
+}
+
+.menu_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    padding: 28px 18px;
+    display: block;
+}
+
+.menu_link_active {
+    color: #213B7E;
+    background-color: #fff;
+    text-decoration: none;
+}
+.button {
+    width: 153px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #EA5D21;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding-left: calc(50% - 911px / 2);
+    padding-right: calc(50% - 911px / 2);
+    padding-bottom: 187px;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-top: 33px;
+    padding-bottom: 25px;
+}
+
+.contentphoto {
+    width: 523px;
+}
+
+.content_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_section {
+    width: 634px;
+}
+
+.subtitle {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.about_text {
+    display: flex;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #646464;
+    width: 129px;
+    padding-top: 30px;
+    
+}
+
+.footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    background-color:#213B7E;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
